@@ -1,0 +1,588 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    background-color: #ffffff;
+}
+
+img {
+    width: 100%;
+}
+
+.a {
+  font-size: 300%;
+  font-weight: 250;
+  color: white;
+  width: 48%;
+}
+.midbox {
+  height: 30px;
+  width: 70%;
+  margin: 15%;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.burgare {
+  width: 100%;
+}
+.burgare1 {
+  width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(36, 36, 36);
+}
+  
+li {
+    float: left;
+}
+  
+ li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 18px 22px;
+    text-decoration: none;
+}
+.ikväll {
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-size: 19px;
+}
+li a:hover {
+    background-color: #111;
+}
+  
+.button {
+    background-color: #ba3131;
+    border: none;
+    color: white;
+    padding: 12px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 20px;
+    float: right;
+    margin-top: -45px;
+    
+  }
+.krash {
+  margin-top: -25px;
+}
+.beskrivningar1 {
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-size: 3vw;
+  width: 50%;
+  float: right;
+  margin-top: -10px;
+  
+}
+  .logg {
+    background-color: #3b789c;
+    border: none;
+    color: white;
+    padding: 12px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 20px;
+    float: right;
+    margin-top: -45px;
+    position: absolute;
+    right: 380px;
+  }
+  .logg:hover {
+    background-color: #111;
+  }
+  .button:hover {
+    background-color: #111;
+  }
+
+h1 {
+    font-weight: bold;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+h2 {
+    font-size: 10vw;
+    font-weight: 250;
+    color: white;
+
+    
+}
+h3 {
+color: white;
+font-weight: 80;
+float: left;
+width: 48%;
+font-size: 6vw;
+  
+}
+h4 {
+  float: right;
+  width: 48%;
+  color: white;
+font-size: 6vw;
+font-weight: 80;
+position: relative;
+bottom: 9px;
+}
+
+.box1 {
+    width: 100%;
+    margin-left: 2%;
+    float: left;
+
+}
+.box2 {
+
+}
+
+
+.ekobox {
+    width: 30%;
+    height: 750px;
+    background-color: #ffffff;
+    margin-left: 20px;
+    border-radius: 75px;
+    margin-bottom: 20px;
+}
+.aktietext {
+  font-size: large;
+  text-align: center;
+  position: relative;
+  top: 3%;
+ 
+}
+.aktie1 {
+    background-color: #ff0000;
+    border: none;
+    color: white;
+    padding: 12px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 20px;
+    float: left;
+    margin-top: 25px;
+    margin-left: 50px;
+    width: 50%;
+    
+  }
+  .aktie1:hover {
+    background-color: #9a0000;
+  }
+  .aktie2 {
+    background-color: #ff0000;
+    border: none;
+    color: white;
+    padding: 12px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 20px;
+    float: left;
+    margin-top: 25px;
+    margin-left: 50px;
+    width: 50%;
+  }
+  .aktie2:hover {
+    background-color: #9a0000;
+  }
+  .aktie3 {
+    background-color: #ff0000;
+    border: none;
+    color: white;
+    padding: 12px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 20px;
+    float: left;
+    margin-top: 25px;
+    margin-left: 50px;
+    width: 50%;
+  }
+  .aktie3:hover {
+    background-color: #9a0000;
+  }
+  .aktie4 {
+    background-color: #ff0000;
+    border: none;
+    color: white;
+    padding: 12px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 20px;
+    float: left;
+    margin-top: 25px;
+    margin-left: 50px;
+    width: 50%;
+  }
+  .aktie4:hover {
+    background-color: #9a0000;
+  }
+  .aktie5 {
+    background-color: #ff0000;
+    border: none;
+    color: white;
+    padding: 12px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 20px;
+    float: left;
+    margin-top: 25px;
+    margin-left: 50px;
+    width: 50%;
+  }
+  .aktie5:hover {
+    background-color: #9a0000;
+  }
+  .aktie6 {
+    background-color: #ff0000;
+    border: none;
+    color: white;
+    padding: 12px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 20px;
+    float: left;
+    margin-top: 25px;
+    margin-left: 50px;
+    width: 50%;
+  }
+  .aktie6:hover {
+    background-color: #9a0000;
+  }
+  .ekobox2 {
+    width: 30%;
+    height: 750px;
+    background-color: #ffffff;
+    margin-right: 20px;
+    border-radius: 75px;
+    margin-bottom: 20px;
+    float: right;
+    margin-left: 2px;
+    position: relative;
+    bottom: 60%;
+}
+.cryptotext {
+  font-size: large;
+  text-align: center;
+  position: relative;
+  top: 3%;
+ 
+}
+.crypto1 {
+    background-color: #00aac1;
+    border: none;
+    color: white;
+    padding: 12px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 20px;
+    float: left;
+    margin-top: 25px;
+    margin-left: 50px;
+    width: 50%;
+    
+  }
+  .crypto1:hover {
+    background-color: #9a0000;
+  }
+  .crypto2 {
+    background-color: #00aac1;
+    border: none;
+    color: white;
+    padding: 12px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 20px;
+    float: left;
+    margin-top: 25px;
+    margin-left: 50px;
+    width: 50%;
+  }
+  .crypto2:hover {
+    background-color: #9a0000;
+  }
+  .crypto3 {
+    background-color: #00aac1;
+    border: none;
+    color: white;
+    padding: 12px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 20px;
+    float: left;
+    margin-top: 25px;
+    margin-left: 50px;
+    width: 50%;
+  }
+  .crypto3:hover {
+    background-color: #9a0000;
+  }
+  .crypto4 {
+    background-color: #00aac1;
+    border: none;
+    color: white;
+    padding: 12px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 20px;
+    float: left;
+    margin-top: 25px;
+    margin-left: 50px;
+    width: 50%;
+  }
+  .crypto4:hover {
+    background-color: #9a0000;
+  }
+  .crypto5 {
+    background-color: #00aac1;
+    border: none;
+    color: white;
+    padding: 12px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 20px;
+    float: left;
+    margin-top: 25px;
+    margin-left: 50px;
+    width: 50%;
+  }
+  .crypto5:hover {
+    background-color: #9a0000;
+  }
+  .crypto6 {
+    background-color: #00aac1;
+    border: none;
+    color: white;
+    padding: 12px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 20px;
+    float: left;
+    margin-top: 25px;
+    margin-left: 50px;
+    width: 50%;
+  }
+  .crypto6:hover {
+    background-color: #9a0000;
+  }
+  .kontakt {
+    width: 80%;
+    margin: 10%;
+    background-color: #000000;
+    height: 100px;
+    border-radius: 20px;
+  }
+.wrapper {
+
+    width: 100%;
+    margin: 20px auto;
+    border: solid 7px rgb(40, 40, 40);
+    background-color: rgb(92, 92, 92);
+    height: 2049px;
+    border-radius: 15px;
+}
+.wrapper2 {
+
+  width: 70%;
+  margin: 20px auto;
+  border: solid 7px rgb(40, 40, 40);
+  background-color: rgb(125, 125, 125);
+  height: 1287px;
+  border-radius: 15px;
+}
+.wrappernews {
+  width: 70%;
+  margin: 20px auto;
+  border: solid 7px rgb(40, 40, 40);
+  background-color: rgb(125, 125, 125);
+  height: 1402px;
+  border-radius: 15px;
+}
+header {
+    height: 180px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.natt {
+    width: 12%;
+    position: absolute;
+    top: 50px;
+    right: 350px;
+    border-radius: 15px;
+}
+footer {
+    clear: both;
+    margin-bottom: -200px;
+   background-color: #000000;
+height: 185px;
+position: relative;
+bottom: -400px;
+}
+.footerbox {
+  width: 100%;
+  height: 410px;
+  
+}
+.footereko {
+  clear: both;
+  margin-bottom: -200px;
+ background-color: #000000;
+height: 185px;
+position: relative;
+bottom: 700px;
+}
+.footernews {
+  background-color: #000000;
+  height: 185px;
+  position:relative;
+  bottom: -50px;
+
+}
+.h6{
+  color: rgb(255, 255, 255);
+  font-size: 4vw;
+  text-align: center;
+  font-family:'Times New Roman', Times, serif
+  
+
+}
+
+h5 {
+  float: right;
+  color: rgb(255, 255, 255);
+  margin: 30px;
+position: relative;
+top: -30px;
+}
+
+.ekotext {
+  width: 20%;
+ position: absolute;
+ right: 600px;
+ top: 350px;
+ line-height: 25px;
+}
+.ekorubrik {
+  width: 20%;
+  position: absolute;
+  right: 600px;
+  top: 290px;
+}
+/* Add section left and right */
+.add  {
+    width: 13%;
+    float: left;
+    position: fixed;
+}
+.add2 {
+    width: 13%;
+    float: right;
+    position: absolute;
+    bottom: 55px;
+    position: fixed;
+
+}
+.add3 {
+    width: 13%;
+position: absolute;
+right: 10px;
+    float: none;
+    position: fixed;
+}
+.add4 {
+  width: 13%;
+  float: right;
+  position: absolute;
+  right: 10px;
+  top: 320px;
+  position: fixed;
+}
+/*Media Queries*/ 
+/*För små laptops*/
+
+@media screen and (max-width:960px){
+    
+    body {
+        background-color: #ffffff;
+    }
+    .wrapper {
+        width: 95%;
+    }
+}
+
+/*Surfplatta*/
+@media screen and (max-width:768px){
+    body {
+        background-color: #ffffff;
+    }
+    .content{
+        width: auto;
+        float: none;
+    }
+    aside{
+        width: auto;
+        float: none;
+    }
+}
+/*Mobil*/
+@media screen and (max-width:580px){
+    body {
+        background-color: #ffffff;
+    }
+    li {
+        float: none;
+    }
+    header {
+        height: auto;
+    }
+}
