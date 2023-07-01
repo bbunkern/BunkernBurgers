@@ -29,7 +29,61 @@ img {
   width: 100%;
 }
 .burgare1 {
-  width: 100%;
+  width: 96%;
+height: 35vw;
+margin-bottom: 100px;
+background: #000000;
+border-radius: 20px;
+margin: 2%;
+
+}
+.burgare2 {
+  width: 96%;
+  height: 35vw;
+  margin-bottom: 100px;
+  background: black;
+  border-radius: 20px;
+  margin: 2%;
+}
+.burgare3 {
+  width: 96%;
+  height: 35vw;
+  margin-bottom: 100px;
+  background: black;
+  border-radius: 20px;
+  margin: 2%;
+}
+.burgare4 {
+  width: 96%;
+  height: 40vw;
+  margin-bottom: 100px;
+  background: black;
+  border-radius: 20px;
+  margin: 2%;
+}
+.menyn {
+  width: 96%;
+  height: 40vw;
+  margin-bottom: 100px;
+  background: black;
+  border-radius: 20px;
+  margin: 2%;
+}
+.burgare9 {
+  width: 96%;
+  height: 65vw;
+  margin-bottom: 100px;
+  background: black;
+  border-radius: 20px;
+  margin: 2%;
+}
+.burgare10 {
+width: 96%;
+height: 55vw;
+margin-bottom: 100px;
+background: #0091ff;
+border-radius: 20px;
+margin: 2%;
 }
 
 ul {
@@ -54,7 +108,8 @@ li {
 .ikväll {
   font-family: 'Times New Roman', Times, serif;
   font-style: italic;
-  font-size: 19px;
+  font-size: 6vw;
+  color: white;
 }
 li a:hover {
     background-color: #111;
@@ -82,6 +137,7 @@ li a:hover {
   font-family: 'Times New Roman', Times, serif;
   font-style: italic;
   font-size: 3vw;
+  color: #ffffff;
   width: 50%;
   float: right;
   margin-top: -10px;
@@ -110,6 +166,12 @@ li a:hover {
     background-color: #111;
   }
 
+  .loda {
+width: 100%;
+background-color: #0091ff;
+height: 60vw;
+  }
+
 h1 {
     font-weight: bold;
     font-size: 50px;
@@ -119,6 +181,7 @@ h2 {
     font-size: 10vw;
     font-weight: 250;
     color: white;
+    font-family: 'Times New Roman', Times, serif;
 
     
 }
@@ -128,6 +191,7 @@ font-weight: 80;
 float: left;
 width: 48%;
 font-size: 6vw;
+font-family: 'Times New Roman', Times, serif;
   
 }
 h4 {
@@ -138,12 +202,18 @@ font-size: 6vw;
 font-weight: 80;
 position: relative;
 bottom: 9px;
+font-family: 'Times New Roman', Times, serif;
 }
 
 .box1 {
     width: 100%;
-    margin-left: 2%;
+    
     float: left;
+    display: flex;
+    flex-direction: column;
+    
+    
+    
 
 }
 .box2 {
@@ -425,11 +495,8 @@ bottom: 9px;
 .wrapper {
 
     width: 100%;
-    margin: 20px auto;
-    border: solid 7px rgb(40, 40, 40);
-    background-color: rgb(92, 92, 92);
-    height: 2049px;
-    border-radius: 15px;
+    background-color: seagreen;
+    height: 530vw;
 }
 .wrapper2 {
 
@@ -454,10 +521,10 @@ header {
     text-align: center;
 }
 .natt {
-    width: 12%;
+    width: 15%;
     position: absolute;
-    top: 50px;
-    right: 350px;
+    top: 10vw;
+    right: 80%;
     border-radius: 15px;
 }
 footer {
