@@ -64,8 +64,7 @@ margin: 2%;
 .menyn {
   width: 96%;
   height: 40vw;
-  margin-bottom: 100px;
-  background: black;
+  background-color: rgb(0, 255, 64);
   border-radius: 20px;
   margin: 2%;
 }
@@ -175,15 +174,15 @@ height: 60vw;
 h1 {
     font-weight: bold;
     font-size: 50px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-right: 20vw;
 }
 h2 {
     font-size: 10vw;
-    font-weight: 250;
-    color: white;
-    font-family: 'Times New Roman', Times, serif;
-
-    
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 2%;
 }
 h3 {
 color: white;
@@ -192,11 +191,21 @@ float: left;
 width: 48%;
 font-size: 6vw;
 font-family: 'Times New Roman', Times, serif;
-  
+margin-left: 2%;
 }
+.h3{
+  color: white;
+font-weight: 80;
+float: left;
+width: 55%;
+font-size: 6vw;
+font-family: 'Times New Roman', Times, serif;
+}
+  
+
 h4 {
   float: right;
-  width: 48%;
+  width: 46%;
   color: white;
 font-size: 6vw;
 font-weight: 80;
@@ -204,7 +213,16 @@ position: relative;
 bottom: 9px;
 font-family: 'Times New Roman', Times, serif;
 }
-
+.h4 {
+  float: right;
+  width: 41%;
+  color: white;
+font-size: 6vw;
+font-weight: 80;
+position: relative;
+bottom: 9px;
+font-family: 'Times New Roman', Times, serif;
+}
 .box1 {
     width: 100%;
     
@@ -370,121 +388,7 @@ font-family: 'Times New Roman', Times, serif;
   top: 3%;
  
 }
-.crypto1 {
-    background-color: #00aac1;
-    border: none;
-    color: white;
-    padding: 12px 25px;
-    text-align: center;
-    text-decoration: none;
-    display: block;
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 20px;
-    float: left;
-    margin-top: 25px;
-    margin-left: 50px;
-    width: 50%;
-    
-  }
-  .crypto1:hover {
-    background-color: #9a0000;
-  }
-  .crypto2 {
-    background-color: #00aac1;
-    border: none;
-    color: white;
-    padding: 12px 25px;
-    text-align: center;
-    text-decoration: none;
-    display: block;
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 20px;
-    float: left;
-    margin-top: 25px;
-    margin-left: 50px;
-    width: 50%;
-  }
-  .crypto2:hover {
-    background-color: #9a0000;
-  }
-  .crypto3 {
-    background-color: #00aac1;
-    border: none;
-    color: white;
-    padding: 12px 25px;
-    text-align: center;
-    text-decoration: none;
-    display: block;
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 20px;
-    float: left;
-    margin-top: 25px;
-    margin-left: 50px;
-    width: 50%;
-  }
-  .crypto3:hover {
-    background-color: #9a0000;
-  }
-  .crypto4 {
-    background-color: #00aac1;
-    border: none;
-    color: white;
-    padding: 12px 25px;
-    text-align: center;
-    text-decoration: none;
-    display: block;
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 20px;
-    float: left;
-    margin-top: 25px;
-    margin-left: 50px;
-    width: 50%;
-  }
-  .crypto4:hover {
-    background-color: #9a0000;
-  }
-  .crypto5 {
-    background-color: #00aac1;
-    border: none;
-    color: white;
-    padding: 12px 25px;
-    text-align: center;
-    text-decoration: none;
-    display: block;
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 20px;
-    float: left;
-    margin-top: 25px;
-    margin-left: 50px;
-    width: 50%;
-  }
-  .crypto5:hover {
-    background-color: #9a0000;
-  }
-  .crypto6 {
-    background-color: #00aac1;
-    border: none;
-    color: white;
-    padding: 12px 25px;
-    text-align: center;
-    text-decoration: none;
-    display: block;
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 20px;
-    float: left;
-    margin-top: 25px;
-    margin-left: 50px;
-    width: 50%;
-  }
-  .crypto6:hover {
-    background-color: #9a0000;
-  }
+
   .kontakt {
     width: 80%;
     margin: 10%;
@@ -521,10 +425,10 @@ header {
     text-align: center;
 }
 .natt {
-    width: 15%;
+    width: 25%;
     position: absolute;
-    top: 10vw;
-    right: 80%;
+    top: 5vw;
+    right: 3%;
     border-radius: 15px;
 }
 footer {
@@ -623,7 +527,7 @@ right: 10px;
         background-color: #ffffff;
     }
     .wrapper {
-        width: 95%;
+        width: 100%;
     }
 }
 
